@@ -56,7 +56,7 @@ gridContainer.addEventListener('mouseup',
 
 colorPicker.addEventListener('input', (e) => {
     currentColor = e.target.value
-    rainbow = !rainbow
+    rainbow = false
 })
 
 
